@@ -8,6 +8,8 @@ group :development do
 	gem 'sqlite3'
 end
 
+gem 'puma', group: :production
+
 gem 'rails_12factor', group: :production
 
 gem 'pg'
